@@ -1,0 +1,1743 @@
+@charset "UTF-8";
+
+
+/*************************************** COLORS ***************************************/
+
+.color-green { color:#2e9e46; }
+.color-orange { color:#f7921e; }
+.color-yellow { color:#e6b711; }
+.color-grey { color:#434444; }
+.color-white { color:#fff; }
+.color-white-forced { color:#fff !important; }
+.color-black { color:#000; }
+
+.bgcolor-green { background-color:#2e9e46; }
+.bgcolor-orange { background-color:#f7921e; }
+.bgcolor-yellow { background-color:#e6b711; }
+.bgcolor-grey { background-color:#434444; }
+.bgcolor-grey-light { background-color:#dedede; }
+.bgcolor-white { background-color:#fff; }
+.bgcolor-black { background-color:#000; }
+
+
+
+
+
+/*************************************** GENERAL **************************************/
+
+body {
+    background-color:#fff;
+}
+
+* {
+    font-style:normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:700;
+}
+
+p,
+a,
+ol, ol li,
+ul, ul li,
+td, th {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+/*************************************** GENERAL - ELEMENTOR **************************************/
+
+.elementor a{
+    color: black;
+    text-decoration: underline !important;
+}
+
+
+
+
+
+/*************************************** GENERIC ELEMENTS ***************************************/
+
+/*** Green Button ***/
+
+a.mos-btn {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #2e9e46;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px 5px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+/*************************************** HEADER ***************************************/
+
+#mosaiq-menu-wrapper {
+    width:100%;
+    background-color: #fff;
+    padding:0 60px;
+}
+
+
+/******* Utility Menu *******/
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility {
+    width:100%;
+    background-color: #fff;
+    display:flex;
+    justify-content: flex-end;
+    margin-top:60px;
+}
+
+.page-id-3448 div#mosaiq-menu-utility, .page-id-3424 div#mosaiq-menu-utility {
+    margin-top: 10px !important;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility ul#menu-utility-menu,
+#mosaiq-menu-wrapper #mosaiq-menu-utility ul#menu-utility-menu-fr {
+    margin-bottom:0;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility ul#menu-utility-menu li,
+#mosaiq-menu-wrapper #mosaiq-menu-utility ul#menu-utility-menu-fr li {
+    list-style-type:none;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility ul#menu-utility-menu li a,
+#mosaiq-menu-wrapper #mosaiq-menu-utility ul#menu-utility-menu-fr li a {
+    color:#434444;
+    text-transform: uppercase;
+    line-height:1rem;
+    font-size:1rem;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility .wpml-ls {
+    padding:0;
+    margin-left:30px;
+    margin-top:-1px;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility .wpml-ls a.wpml-ls-link {
+    padding:0;
+    color:#434444;
+    text-transform: uppercase;
+    line-height:1rem;
+    font-size:1rem;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-utility .wpml-ls a.wpml-ls-link span {
+    vertical-align: unset;
+}
+
+
+/*** Main Menu ***/
+
+#mosaiq-menu-wrapper #mosaiq-menu-main h1.logo-wrapper {
+    max-width:300px;
+    margin-bottom:0;
+    width: 380px;
+}
+
+
+#mosaiq-menu-wrapper #mosaiq-menu-main h1.logo-wrapper a {
+    display:block;
+    width:100%;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main h1.logo-wrapper img.mos-logo {
+    width:100%;
+    display:block;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom:30px;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container {
+    width:100%;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom:0;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li a,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li a {
+    display:block;
+    color:#434444;
+    text-transform: uppercase;
+    font-size:1em;
+    font-weight:700;
+    margin-right:50px;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li a span,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li a span {
+    display:block;
+}
+
+
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li {
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li a:hover,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li a:hover,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li a:active,
+#mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li a:active {
+    color:#2e9e46;
+}
+
+#mosaiq-menu-wrapper #mosaiq-menu-main a.register-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #2e9e46;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    padding: 10px 30px 5px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+
+
+/******* Mobile Menu *******/
+
+#mobile-menu {
+    display:none;
+    width:100%;
+}
+
+#mobile-menu #hamburger-row {
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+#mobile-menu #hamburger-row h1.logo-wrapper {
+    display:block;
+    width:150px;
+    margin-bottom:0;
+}
+
+#mobile-menu #hamburger-row a#mobile-logo {
+    display:block;
+    width:100%;
+}
+
+#mobile-menu #hamburger-row a#mobile-logo img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+#mobile-menu #hamburger-row #mobile-menu-rightside-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mobile-menu #hamburger-row #mobile-menu-rightside-wrapper a.register-btn {
+    display: inline-block;
+    margin: 0 15px 0 auto;
+    background-color: #2e9e46;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    padding: 10px 10px 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size:0.8em;
+}
+
+body#fr #mobile-menu #hamburger-row #mobile-menu-rightside-wrapper a.register-btn {
+    padding: 5px;
+    font-size:0.7em;
+}
+
+#mobile-menu #hamburger-row #mobile-menu-rightside-wrapper a#mobile-nav-toggle {
+	display:block;
+	font-size:1em;
+	margin:20px 0 20px 0;
+	text-align: center;
+	text-decoration:none;
+    min-width:40px;
+}
+
+#mobile-menu #hamburger-row #mobile-menu-rightside-wrapper a.wpml-ls-link {
+    color: #434444;
+    text-transform: uppercase;
+    line-height: 1rem;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+a#mobile-nav-toggle img {
+	padding:10px 5px;
+}
+
+.menu-accessible-text {
+	display:none;
+}
+
+#mobile-nav-wrapper { background-color: #fff; z-index:1000 !important; clear:both; }
+#mobile-nav-wrapper #social-media-mobile a { padding:15px; display:inline-block; }
+#mobile-nav-wrapper #social-media-mobile a img { width:30px; }
+
+
+/* accordion elements */
+#mobile-nav-wrapper { display:none; }
+
+#mobile-nav-wrapper #mobile-nav ul {
+	padding:0;
+    margin:0;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li {
+	list-style-type: none;
+	position:relative;
+	display:block;
+	font-size:16px;
+	padding:0;
+	background-color:#434444;
+	text-decoration:none;
+	border-bottom:1px solid #fff;
+	overflow:hidden;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li a {
+	display: table;
+	float:left;
+	width:auto;
+	padding: 15px 15px 10px;
+	color:#fff;
+	text-decoration:none;
+	transition: all 0.15s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li a br {
+	display:none;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li ul.sub-menu {
+	display:none;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li:hover a,
+#mobile-nav-wrapper #mobile-nav ul li ul.sub-menu li:hover a {
+	color:#fff;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li:hover ul.sub-menu a {
+	color:#fff;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li img {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item div.toggle-icon {
+	display:block;
+	float:right;
+	text-align:right;
+	width:33px;
+	margin:5px 5px 5px 15px;
+}
+
+/* submenus */
+
+#mobile-nav-wrapper #mobile-nav ul ul.sub-menu { padding:0; }
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item  ul.sub-menu li:first-child {
+	border-top: 1px solid #fff;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li:last-child {
+	border-bottom:none;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu {
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li {
+	background-color: #617ca8;
+	padding:0;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li a {
+	width:70%;
+	margin-left: 15px;
+}
+
+/* sub-sub-menus */
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li ul.sub-menu {
+	clear:both;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li ul.sub-menu li {
+	padding-left:15px;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li ul.sub-menu li a {
+	width:70% !important;
+	color:#fff;
+}
+
+#mobile-nav-wrapper #mobile-nav ul li.menu-item ul.sub-menu li ul.sub-menu li a:hover {
+	color:#fff;
+}
+
+#mobile-nav ul ul {
+	display: none;
+}
+
+
+
+/******* Share link (share row) *******/
+
+#share-row {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#share-row a#sharethis-link {
+    display: inline-block;
+    float: right;
+}
+
+#share-row a#sharethis-link img {
+    display:block;
+    width:30px;
+    height:auto;
+}
+
+#share-row a#sharethis-link span {
+    display:none;
+}
+
+
+
+
+
+/*************************************** HOME/LANDING PAGE ***************************************/
+
+
+/******* Language Toggle Button *******/
+
+#lang-toggle {
+    position:absolute;
+    z-index:9999999;
+    right: 60px;
+    top: 60px;
+    background-color:#fff;
+    text-transform: uppercase;
+    margin:0;
+}
+
+#lang-toggle .wpml-ls-legacy-list-horizontal {
+    padding:0;
+    border: none;
+}
+
+#lang-toggle ul li {
+    width:100%;
+}
+
+#lang-toggle ul li a {
+    width:100%;
+    padding:0;
+    text-align:center;
+    color:#000;
+    padding:10px;
+    text-decoration:none;
+    border:1px solid #999;
+}
+
+#lang-toggle ul li a:hover,
+#lang-toggle ul li a:active {
+    background-color:#eee;
+}
+
+
+
+/******* Slideshow Banner *******/
+
+#homeblock-topbanner {
+    position:relative;
+}
+
+    /* Static version - for inside pages only */
+    #homeblock-topbanner #homeslider {
+        width:100%;
+    }
+
+    #homeblock-topbanner #homeslider img {
+        width:100%;
+    }
+
+#homeblock-topbanner #homeslider-overlay {
+    position:absolute;
+    z-index:500;
+    left:0;
+    top:0;
+    width:600px;
+    background-color:#434444;
+}
+
+#homeblock-topbanner #homeslider-overlay .tagline-wrapper .padder {
+    padding: 60px;
+}
+
+#homeblock-topbanner #homeslider-overlay .tagline-wrapper h2 {
+    color:#fff;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons {
+    /* display:flex; */
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons p.renting {
+    color:#dedede;
+    font-size: 1.3em;
+    margin-bottom:0;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons #homeslider-pagination ul.slick-dots {
+    display:flex;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons #homeslider-pagination ul.slick-dots {
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons #homeslider-pagination ul.slick-dots li {
+    list-style-type:none;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons #homeslider-pagination ul.slick-dots li button {
+    background-color: #dedede;
+    border: none;
+    display: inline-block;
+    margin-right: 9px;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons #homeslider-pagination ul.slick-dots li:last-child button {
+    margin-right: 0;
+}
+
+#homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons #homeslider-pagination ul.slick-dots li.slick-active button {
+    background-color:#fff;
+    padding:6px;
+}
+
+
+#homeblock-topbanner img.arriv-logo {
+    display:block;
+    max-width:300px;
+    height:auto;
+    margin-bottom:30px;
+}
+
+
+
+
+
+/******* Social Icons Row *******/
+
+#socialicons {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding: 15px 0 45px 0;
+}
+
+#socialicons p {
+    margin:0;
+    font-weight:700;
+}
+
+#socialicons a {
+    display:block;
+    width:30px;
+    height:auto;
+    margin-left: 15px;
+}
+
+#socialicons a img {
+    display:block;
+    width:30px;
+    height:auto;
+}
+
+
+
+/******* Benefits Blocks *******/
+
+#homeblock-benefits {
+    padding-top: 30px;
+}
+
+#homeblock-benefits .col-fiftyfifty {
+    width:50%;
+    float:left;
+}
+
+#homeblock-benefits .intro-description {
+    padding-bottom:30px;
+}
+
+#homeblock-benefits .intro-description h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+
+#homeblock-benefits .block .inner {
+    padding: 30px;
+    text-align:center;
+    border:5px solid #fff;
+    min-height:360px;
+}
+
+#homeblock-benefits .block .inner h3 {
+    text-transform:uppercase;
+    font-size:2.3em;
+}
+
+#homeblock-benefits .block .inner.third,
+#homeblock-benefits .block .inner.fourth {
+    color:#fff;
+}
+
+#homeblock-benefits .block .inner img.mos-icon {
+    display:block;
+    margin:0 auto;
+    width:50px;
+    height:auto;
+    margin-bottom:30px;
+}
+
+
+/******* Qualification Chart + Form *******/
+
+#homeblock-chartandform {
+}
+
+/*** Chart ***/
+
+table.qual-chart {
+    border-collapse: collapse;
+    width:100%;
+}
+
+table.qual-chart.first {
+    margin:30px 0 0 0;
+}
+
+table.qual-chart.second {
+    margin:0 0 30px 0;
+}
+
+table.qual-chart.third {
+    margin:0 0 30px 0;
+}
+
+table.qual-chart th {
+    text-align:center;
+    font-weight:bold;
+    background-color:#434444;
+    color:#fff;
+    font-size: 0.9em;
+    padding:5px;
+}
+
+table.qual-chart td {
+    text-align:center;
+    font-size:0.9em;
+    font-weight:600;
+    padding:5px;
+}
+
+#homeblock-chartandform p.note {
+    display:block;
+    font-size:0.7em;
+    text-align:center;
+    width:96%;
+}
+
+
+/******* Home - Modern, Affordable Living *******/
+
+#homeblock-modern-affordable-living {
+    margin-bottom:30px;
+}
+
+#homeblock-modern-affordable-living h3 {
+    font-size:3em;
+}
+
+#homeblock-modern-affordable-living p {
+    font-size:1.3em;
+}
+
+
+/******* Home - Learn More Blocks (two grey blocks) *******/
+
+#homeblock-learnmore {
+    margin-bottom:90px;
+}
+
+#homeblock-learnmore .inner {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#434444;
+    padding:30px;
+}
+
+#homeblock-learnmore .inner p {
+    margin-bottom:0;
+    font-size:1.3em;
+}
+
+#homeblock-learnmore .inner a.mos-btn {
+    margin-left:0;
+    margin-right:0;
+}
+
+
+/******* Home - A new concept in affordable rentals *******/
+#homeblock-new-concept {
+    margin-bottom:90px;
+}
+
+
+/******* Home - Downtown-living, close to it all *******/
+#homeblock-downtown-living {
+    margin-bottom:90px;
+}
+
+#homeblock-downtown-living h3 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#homeblock-downtown-living .inner {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#homeblock-downtown-living .inner img.icon {
+    display:block;
+    width:auto;
+    height:100px;
+}
+
+#homeblock-downtown-living .inner h4 {
+    text-align: center;
+    font-size:1.3em;
+    font-weight:500;
+    margin-bottom:0;
+    margin-left:15px;
+}
+
+#homeblock-downtown-living .inner h4 span.number {
+    font-size: 2em;
+    color: #2e9e46;
+    font-weight: 700;
+}
+
+#homeblock-downtown-living p.description {
+    text-align:center;
+}
+
+
+/******* Home - Mosaiq: A Community Concept *******/
+
+#homeblock-colorgrid {
+    margin-bottom:90px;
+}
+
+#homeblock-colorgrid .row {
+    margin-bottom:30px;
+}
+
+#homeblock-colorgrid h3 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#homeblock-colorgrid .inner {
+    padding:60px 30px;
+    text-align: center;
+}
+
+#homeblock-colorgrid .inner h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    margin-top:30px;
+}
+
+#homeblock-colorgrid .inner p {
+    display:block;
+    min-height:100px;
+}
+
+#homeblock-colorgrid .floorplans-block.inner {
+    width:100%;
+    display:flex;
+    text-align: left;
+    padding:45px 60px;
+}
+
+#homeblock-colorgrid .floorplans-block.inner img {
+    display:block;
+    max-width:200px;
+    margin-right:30px;
+}
+
+#homeblock-colorgrid .floorplans-block.inner p {
+    min-height:1px; /* override min-height for other <p>s in this section */
+}
+
+#fpslider-wrapper{
+    padding-bottom: 10px;
+}
+
+
+
+/******* Home - A new concept in affordable rentals *******/
+#homeblock-sustainable-green-living {
+    margin-bottom:90px;
+}
+
+
+/******* Home - Video *******/
+
+
+
+
+
+
+/******* Home - Follow Mosaiq on Instagram *******/
+
+#homeblock-instagram {
+    width:100%;
+    padding-top:90px;
+    padding-bottom:90px;
+    color:#fff;
+}
+
+#homeblock-instagram .inner {
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+#homeblock-instagram .inner h3 {
+    margin-bottom:0;
+}
+
+#homeblock-instagram .inner img.icon {
+    display:block;
+    width:35px;
+    height:auto;
+    margin-left:15px;
+}
+
+#homeblock-instagram p {
+    font-size:0.9em;
+}
+
+
+
+
+/******* Home - Now Renting YouTube Video *******/
+
+#homeblock-video-launcher {
+    border-top:60px solid #434444;
+}
+
+#homeblock-video-launcher h3 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+
+#homeblock-video-launcher .inner {
+    width:100%;
+    text-align: center;
+}
+
+#homeblock-video-launcher .inner.first {
+    width:100%;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom:30px;
+}
+
+#homeblock-video-launcher .inner.second {
+    width:100%;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:60px;
+}
+
+#homeblock-video-launcher iframe {
+   width:100%;
+}
+
+
+
+
+#homeblock-video-launcher a.launch-pic-container {
+    position: relative;
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+#homeblock-video-launcher a.launch-pic-container img.launch-button {
+    display:block;
+    position:absolute;
+    z-index:1;
+    width:100px;
+    height:auto;
+}
+
+#homeblock-video-launcher a.launch-pic-container img.bg {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+
+
+/******* Home - Location, Location! *******/
+
+#homeblock-map {
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+#homeblock-map img.logo {
+    max-width:300px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#homeblock-map h3 {
+    margin-bottom:30px;
+}
+
+#homeblock-map p.map-caption {
+    font-size:1.3em;
+    font-weight:300;
+}
+
+.gmap-temp {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+
+
+
+/******* Home - Subscribe Button *******/
+
+a.mc-subscribe-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #2e9e46;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    padding: 10px 5px 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    width: 50%;
+    text-align:center;
+}
+
+a.mc-subscribe-button:hover,
+a.mc-subscribe-button:active {
+    color:#fff;
+    text-decoration: underline;
+    background-color: #37ba53;
+}
+
+
+
+/*************************************** TOWNHOME + APARTMENT LANDING PAGES ***************************************/
+
+
+
+/******* Intro *******/
+
+#landingblock-intro h3 {
+    font-size:3em;
+}
+
+
+/******* Properties Table + List *******/
+
+#landingblock-properties-table-and-list {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* Table */
+#landingblock-properties-table-and-list table.properties-table {
+    border-collapse: collapse;
+    width:100%;
+    margin-bottom:15px;
+}
+
+#landingblock-properties-table-and-list table.properties-table tr,
+#landingblock-properties-table-and-list table.properties-table th,
+#landingblock-properties-table-and-list table.properties-table td {
+    padding:3px 10px;
+}
+
+#landingblock-properties-table-and-list table.properties-table tr.last td {
+    padding-top:15px;
+}
+
+#landingblock-properties-table-and-list table.properties-table th {
+    background-color: #2B2E34;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+#landingblock-properties-table-and-list table.properties-table a.mos-btn {
+    width:100%;
+}
+
+#landingblock-properties-table-and-list table.properties-table .width-20 {
+    width:20%;
+}
+
+#landingblock-properties-table-and-list table.properties-table .border-top-darkgrey { border-top:1px solid #2B2E34; }#landingblock-properties-table-and-list table.properties-table .border-bottom-darkgrey { border-bottom:1px solid #2B2E34; }
+#landingblock-properties-table-and-list table.properties-table .border-left-darkgrey { border-left:1px solid #2B2E34; }
+#landingblock-properties-table-and-list table.properties-table .border-right-darkgrey { border-right:1px solid #2B2E34; }
+
+#landingblock-properties-table-and-list table.properties-table .border-top-lightgrey { border-top:1px solid #707070; }
+#landingblock-properties-table-and-list table.properties-table .border-bottom-lightgrey { border-bottom:1px solid #707070; }
+#landingblock-properties-table-and-list table.properties-table .border-left-lightgrey { border-left:1px solid #707070; }
+#landingblock-properties-table-and-list table.properties-table .border-right-lightgrey { border-right:1px solid #707070; }
+
+#landingblock-properties-table-and-list a.mos-btn.join-wait-list {
+    background-color:#fff;
+    color: #2e9e46;
+    border-color: #2e9e46;
+}
+
+/* List */
+#landingblock-properties-table-and-list .properties-list {
+    display:none;
+    margin-bottom:60px;
+}
+
+#landingblock-properties-table-and-list .properties-list ul {
+    margin-bottom:0;
+}
+
+#landingblock-properties-table-and-list .properties-list a.mos-btn {
+    display: block;
+    margin: 0;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom:60px;
+}
+
+#landingblock-properties-table-and-list .properties-list h4 {
+    text-transform: uppercase;
+    color:#434444;
+    margin-bottom:5px;
+    display:block;
+    font-size:1.5em;
+}
+
+#landingblock-properties-table-and-list .properties-list ul li p.highlight {
+    padding:5px;
+    margin-top:5px;
+}
+
+/* Parking Note */
+#landingblock-properties-table-and-list p.parking-note {
+    font-size:80%;
+    font-style:italic;
+    margin-bottom:0;
+}
+
+
+/******* Virtual Tour *******/
+
+#landingblock-virtualtour {
+    padding-top:60px;
+    padding-top:60px;
+
+}
+
+#landingblock-virtualtour h3 {
+    font-size:3em;
+}
+
+#landingblock-virtualtour .row.vrtour {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+#landingblock-virtualtour #virtual-tour-video {
+    width:100%;
+}
+
+
+/******* Yellow Block *******/
+
+#landingblock-yellow {
+    background-color: #e6b711;
+    color:#434444;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+#landingblock-yellow .col-left {
+}
+
+#landingblock-yellow .col-right {
+    text-align: right;
+}
+
+
+/******* Floorplan Dropdown + Slider *******/
+
+    #floorplans-intro-and-dd-wrapper {
+        background-color: #dedede;
+        padding-top:60px;
+    }
+
+    #floorplans-intro-and-dd-wrapper .col-left {
+        display:flex;
+        align-items: flex-end;
+    }
+
+    #floorplans-intro-and-dd-wrapper .col-left h3 {
+        font-size:3em;
+    }
+
+    #floorplans-intro-and-dd-wrapper .col-right {
+        display:flex;
+        align-items: flex-end;
+        margin-bottom:20px;
+    }
+
+    #fp-info-text {
+        width:100%;
+    }
+
+    #fp-dropdown {   
+        width:100%;
+        color:#fff;
+    }
+
+    #fp-info-text{
+        margin: 0 auto;
+        text-align: center;
+        width: calc(100% - 400px);
+        display: block;
+        padding-bottom:30px;
+    }
+
+
+    /* Slider Wrapper */
+    #fpslider-wrapper {
+        padding-top:60px;
+        background-color: #dedede;
+    }
+
+    #fpslider-wrapper-inner {
+        margin:0 auto;
+        width:75%;
+    }
+
+
+    /* Slider Previous Button */
+    #fpslider-wrapper .nav-prev {
+        width:200px;
+    }
+
+    #fpslider-wrapper .nav-prev img {
+        display:block;
+        width:40px;
+        height:auto;
+        margin:30px auto 0 auto;
+    }
+
+    /* Slider Next Button */
+    #fpslider-wrapper .nav-next {
+        width:200px;
+    }
+
+    #fpslider-wrapper .nav-next img {
+        display:block;
+        width:40px;
+        height:auto;
+        margin:30px auto 0 auto;
+        cursor: pointer;
+    }
+
+    /* Slider Core */
+    #fpslider-wrapper #fpslider {
+    }
+
+    #fpslider-wrapper #fpslider .slide-container .inner {
+        display:block;
+    }
+
+    #fpslider-wrapper #fpslider .slide-container .inner img {
+        display:block;
+        height:auto;
+        margin:0 auto;
+    }
+
+    #fpslider-wrapper #fpslider .slide-container p {
+        width:100%;
+        display:block;
+        text-align:center;
+        font-size:1em;
+        font-weight:bold;
+        color:#000;
+    }
+
+    #fpslider-wrapper .slick-prev,
+    #fpslider-wrapper .slick-next {
+        top: 10px;
+    }
+
+    #fpslider-wrapper .slick-prev {
+        left: -75px;
+    }
+
+    #fpslider-wrapper .slick-next {
+        right: -60px;
+    }
+
+    #fpslider-wrapper .slick-prev:before,
+    #fpslider-wrapper .slick-next:before {
+        font-size: 40px;
+        color:#000;
+    }
+
+
+    /* Slider Disclaimer */
+    #fp-disclaimer {
+        width:100%;
+        background-color: #dedede;
+    }
+
+    #fp-disclaimer p {
+        display:block;
+        width: calc(100% - 400px);
+        margin:0 auto;
+        padding:50px 0 0 0;
+    }
+
+    /* Slider Swipe Message (mobile only) */
+    #fp-swipe-msg-mobile {
+        display:none;
+        width:100%;
+        background-color: #dedede;
+        padding-bottom:30px;
+    }
+
+    #fp-swipe-msg-mobile .inner {
+        background-color: #e6b711;
+        padding: 15px;
+    }
+
+    #fp-swipe-msg-mobile p {
+        display:block;
+        width: calc(100% - 100px);
+        margin: 0 auto;
+        font-weight: 600;
+        text-align:center;
+        padding:15px 0;
+    }
+
+
+    /* Slider Dropdown */
+    .mos-dd .select-hidden {
+        display: none !important;
+        visibility: hidden;
+        padding-right: 10px;
+    }
+
+    .mos-dd .select {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        font-size: 16px;
+        color: #434444;
+        height: 40px;
+    }
+
+    .mos-dd .select-styled {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #434444;
+        padding: 10px 15px;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        color: #FFF;
+        border: 2px solid #FFF;
+        border-radius: 3px;
+        font-weight: 500;
+        height:50px;
+        padding:12px 15px 15px 15px;
+    }
+
+    .mos-dd .select-styled:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border: 7px solid transparent;
+        border-color: #FFF transparent transparent transparent;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+
+    .mos-dd .select-styled:active,
+    .mos-dd .select-styled.active {
+        background-color: #434444;
+    }
+
+    .mos-dd .select-styled:active:after,
+    .mos-dd .select-styled.active:after {
+        top: 9px;
+        border-color: transparent transparent #eee transparent;
+    }
+
+    .mos-dd .select-options {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: #fff;
+        margin-top:10px;
+        max-height:300px;
+        height: auto;
+        overflow-x: hidden;
+        -webkit-box-shadow: -6px 5px 20px -11px rgba(143,130,143,1);
+        -moz-box-shadow: -6px 5px 20px -11px rgba(143,130,143,1);
+        box-shadow: -6px 5px 20px -11px rgba(143,130,143,1);
+    }
+
+
+    .mos-dd .select-options::-webkit-scrollbar-track
+    {
+        /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+        background-color: #F5F5F5;
+    }
+
+    .mos-dd .select-options::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .mos-dd .select-options::-webkit-scrollbar-thumb
+    {
+    background-color:  #D9D9D6;
+    }
+
+    .mos-dd .select-options li {
+        margin: 0;
+        padding: 12px 0;
+        text-indent: 15px;
+        border-top: 1px solid #fff;
+        -moz-transition: all 0.15s ease-in;
+        -o-transition: all 0.15s ease-in;
+        -webkit-transition: all 0.15s ease-in;
+        transition: all 0.15s ease-in;
+        background: #fff;
+        color: #001E60;
+    }
+
+    .mos-dd .select-options li:hover {
+        background-color: #58A7AF;
+        color: #fff;
+    
+    }
+
+    .mos-dd .select-options li[rel="hide"] {
+        display: none;
+    }
+
+
+.acc-temp-hide-element{
+    display: none !important;
+}
+
+
+
+/******* Videos List *******/
+
+#videolist-wrapper {
+    background-color: #dedede;
+    padding-top:60px;
+    padding-bottom:60px;
+    border-bottom: 60px solid #434444;
+}
+
+#videolist-wrapper h3 {
+    font-size:3em;
+}
+
+    #videolist-wrapper .video-single {
+        width:100%;
+    }
+
+        #videolist-wrapper .video-single:not(:last-child) {
+            margin-bottom:30px;
+        }
+
+
+.fluidMedia {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    height: 0;
+    overflow: hidden;
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/*************************************** PAGE (GENERIC/ELEMENTOR) ***************************************/
+
+#elem-wrapper {
+
+}
+
+body .elementor-widget-wrap>.elementor-element.elem-intro-text {
+    width:75%;
+}
+
+.elem-body-note {
+    font-size:0.8em;
+}
+
+
+
+
+
+/******* Home - Modern, Affordable Living *******/
+
+#insideblock-modern-affordable-living {
+    width:100%;
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+#insideblock-modern-affordable-living .container.first {
+    margin-bottom:30px;
+}
+
+#insideblock-modern-affordable-living .container.first h3 {
+    font-size:2em;
+}
+
+#insideblock-modern-affordable-living .container.first p {
+    font-size:1.3em;
+}
+
+#insideblock-modern-affordable-living .container.first img.mos-logo {
+    display:block;
+    max-width:250px;
+    height:auto;
+    margin: 0 0 0 auto;
+}
+
+
+/******* Home - Learn More Blocks (two grey blocks) *******/
+
+#insideblock-modern-affordable-living .container.second {
+}
+
+#insideblock-modern-affordable-living .container.second .inner {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#434444;
+    padding:30px;
+}
+
+#insideblock-modern-affordable-living .container.second .inner p {
+    margin-bottom:0;
+    font-size:1.3em;
+}
+
+#insideblock-modern-affordable-living .container.second .inner a.mos-btn {
+    margin-left:0;
+    margin-right:0;
+}
+
+
+
+
+
+
+
+
+/*************************************** FOOTER ***************************************/
+
+#site-footer {
+    padding-top:60px;
+    padding-bottom:60px;
+    color:#fff;
+}
+
+#site-footer .menu-main-menu-container ul,
+#site-footer .menu-main-menu-fr-container ul,
+#site-footer .menu-utility-menu-container ul,
+#site-footer .menu-utility-menu-fr-container ul {
+    list-style-type: none;
+    margin:0;
+}
+
+#site-footer .menu-main-menu-container ul li a,
+#site-footer .menu-main-menu-fr-container ul li a,
+#site-footer .menu-utility-menu-container ul li a,
+#site-footer .menu-utility-menu-fr-container ul li a {
+    color:#fff;
+    font-size:0.8em;
+    text-decoration:underline;
+}
+
+#site-footer .follow-us {
+    display:flex;
+    justify-content: flex-end;
+}
+
+#site-footer .follow-us .inner {
+    display:flex;
+    justify-content: flex-end;
+}
+
+#site-footer .follow-us .inner a {
+    display:block;
+    width:35px;
+    height:auto;
+    margin-left:15px;
+}
+
+#site-footer .follow-us .inner a img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+#site-footer .follow-us p {
+    margin-bottom:0;
+}
+
+#site-footer img.arriv-logo {
+    display:block;
+    max-width:200px;
+    height:auto;
+}
+
+#footer-privacy {
+    width:100%;
+    text-align: center;
+    background-color:#000;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#footer-privacy a {
+    color:#fff;
+    font-size:1em;
+    text-decoration:underline;
+}
+
+#site-footer .footer-contact-details ul {
+    margin:30px 0 0 0;
+    padding:0;
+    width:100%;
+}
+
+#site-footer .footer-contact-details ul li {
+    list-style-type: none;
+    width:100%;
+    text-align:right;
+}
+
+#site-footer .footer-contact-details ul li a {
+    color:#fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/*
+.concept-banner-text {
+    color: #fff;
+}
+*/
+
+
+
+
+
+
+
+/*************************************** UTILITY CLASSES ***************************************/
+
+.text-align-left { text-align:left !important; }
+.text-align-right { text-align:right !important; }
+.text-align-center { text-align:center !important; }
+
+.width-25 { width:25%; }
+.width-33 { width:33.3334%; }
+.width-50 { width:50%; }
+.width-100 { width:100%; }
+
+.margin-bottom-0 {margin-bottom:0;}
+.margin-bottom-15 {margin-bottom:15px;}
+.margin-bottom-30 {margin-bottom:30px;}
+.margin-bottom-45 {margin-bottom:45px;}
+.margin-bottom-60 {margin-bottom:60px;}
+
+.margin-top-0 {margin-top:0;}
+.margin-top-15 {margin-top:15px;}
+.margin-top-30 {margin-top:30px;}
+.margin-top-45 {margin-top:45px;}
+.margin-top-60 {margin-top:60px;}
+
+.padding-bottom-0 {padding-bottom:0;}
+.padding-bottom-15 {padding-bottom:15px;}
+.padding-bottom-30 {padding-bottom:30px;}
+.padding-bottom-45 {padding-bottom:45px;}
+.padding-bottom-60 {padding-bottom:60px;}
+
+.padding-top-0 {padding-top:0;}
+.padding-top-15 {padding-top:15px;}
+.padding-top-30 {padding-top:30px;}
+.padding-top-45 {padding-top:45px;}
+.padding-top-60 {padding-top:60px;}
+
+.padding-right-15 {padding-right:15px;}
+
+.hide { display:none; }
+
+.highlight {
+    padding: 6px 6px 0 6px;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.highlight.green { background-color:#2e9e46; }
+.highlight.orange { background-color:#f7921e; }
+.highlight.yellow { background-color:#e6b711; }
+.highlight.grey { background-color:#434444; }
+.highlight.grey-light { background-color:#dedede; }
+
+.uppercase { text-transform:uppercase; }
+
+
+/**** fixes ****/
+.ac-nonblocked{
+    display: inline !important;
+    padding-top: 4px;
+}

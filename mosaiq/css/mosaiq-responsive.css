@@ -1,0 +1,327 @@
+/************************ GENERAL MEDIA QUERIES ***********************/
+
+
+
+@media (max-width: 1799px) {
+
+    #mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li a,
+    #mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li a {
+        margin-right:40px;
+    }
+
+}
+
+
+
+@media (max-width: 1499px) {
+
+    #homeblock-topbanner #homeslider-overlay { width:550px; }
+    
+    #homeblock-topbanner #homeslider-overlay .tagline-wrapper h2 { font-size:1.7em; }
+    #homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons { margin-top:15px; }
+
+    #floorplans-footer .row-ourinvestors img {
+        max-width:100px;
+    }
+
+    #floorplans-footer .row-ourinvestors {
+        padding:50px;
+    }
+
+}
+
+
+
+@media (max-width: 1365px) {
+
+    #mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-container ul#menu-main-menu li a,
+    #mosaiq-menu-wrapper #mosaiq-menu-main .menu-main-menu-fr-container ul#menu-main-menu-fr li a {
+        margin-right:20px;
+        font-size:0.85em;
+    }
+
+    #mosaiq-menu-wrapper #mosaiq-menu-main a.register-btn {
+        padding: 10px 10px 5px 10px;
+        font-size: 0.8em;
+    }
+
+}
+
+
+
+@media (max-width: 1269px) {
+    #homeblock-topbanner #homeslider-overlay { width:500px; }
+    #homeblock-topbanner #homeslider-overlay .tagline-wrapper h2 { font-size:1.5em; }
+    #homeblock-topbanner #homeslider-overlay .rentalnote-and-sliderbuttons { margin-top:15px; }
+}
+
+
+
+@media (max-width: 1169px) {
+
+    #mobile-menu {
+        display:block;
+    }
+
+    #mosaiq-menu-wrapper {
+        display:none;
+    }
+
+
+    #homeblock-topbanner #homeslider-overlay { position:relative; }
+    #homeblock-topbanner #homeslider-overlay { width:100%; }
+    #homeblock-topbanner #homeslider-overlay .tagline-wrapper .padder { padding: 30px; }
+    #homeblock-topbanner #homeslider-overlay .logo-wrapper { padding: 30px; }
+    
+    #homeblock-benefits .col-fiftyfifty { width:100%; float:none; }
+    #homeblock-benefits .block .inner { min-height:1px; }
+    
+    #homeblock-summer-occ { margin-bottom: 15px; }
+
+    #homeblock-chartandform #learnmore-form-wrapper { margin-bottom:30px; padding:30px 15px; }
+
+    #homeblock-map .block.first { min-height:1px; padding-top:30px; padding-bottom:15px; }
+    #homeblock-map .block.second { min-height:1px; padding-top:15px; padding-bottom:60px; }
+
+    #homeblock-footer { padding-top: 30px; padding-bottom: 30px; }
+    #homeblock-footer .block.first { display:block; }
+    #homeblock-footer .block.first .mos-logo-white { margin-bottom:15px; }
+    #homeblock-footer #footer-logo-row { display:block; }
+    #homeblock-footer #footer-logo-row img { width: 46%; padding: 4%; float:left; }
+}
+
+
+
+@media (max-width: 991px) {
+
+    /*** Home page ***/
+    #homeblock-learnmore .col-lg-6 {
+        margin-bottom:15px;
+    }
+
+    #homeblock-new-concept h3 br {
+        display:none;
+    }
+
+    #homeblock-colorgrid .row {
+        margin-bottom:0;
+    }
+
+    #homeblock-colorgrid .mos-col {
+        margin-bottom:30px;
+    }
+
+    #homeblock-colorgrid .inner p {
+        min-height:0;
+    }
+
+
+    #homeblock-learnmore,
+    #homeblock-new-concept,
+    #homeblock-downtown-living,
+    #homeblock-colorgrid,
+    #homeblock-sustainable-green-living,
+    #homeblock-instagram .inner {
+        margin-bottom:30px;
+    }
+
+    #homeblock-colorgrid .floorplans-block.inner {
+        display:block;
+        padding-top:30px;
+        padding-bottom:30px;
+        text-align:center;
+    }
+
+    #homeblock-colorgrid .floorplans-block.inner img {
+        display:block;
+        margin:0 auto;
+    }
+
+    #homeblock-instagram {
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    #homeblock-instagram img {
+        margin-bottom:30px;
+    }
+
+    #homeblock-colorgrid .inner {
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    #homeblock-video {
+        border-top-width:45px;
+    }
+
+    #homeblock-colorgrid .inner h3 {
+        font-size:1.3em;
+    }
+
+    #homeblock-modern-affordable-living h3,
+    #homeblock-downtown-living h3,
+    #homeblock-colorgrid h3,
+    #homeblock-video-launcher h3 {
+        font-size:1.75rem;
+    }
+
+    #homeblock-instagram .inner h3,
+    #landingblock-intro h3,
+    #floorplans-intro-and-dd-wrapper .col-left h3,
+    #landingblock-virtualtour h3 {
+        font-size:2.3em;
+    }
+
+    
+
+    /*** Townhome + Apartment Landing Pages ***/
+
+    #fp-info-text {
+        width:calc(100% - 60px);
+        margin-left:30px;
+        margin-right:30px;
+    }
+
+    #fp-swipe-msg-mobile {
+        display:block;
+    }
+
+    #fp-dropdown {
+        display:block;
+    }
+
+    #fpslider-wrapper {
+        padding-top:0;
+    }
+
+    #fpslider-wrapper #fpslider-wrapper-inner {
+        width: 100%;
+    }
+
+    #fpslider-wrapper #fpslider .slick-prev,
+    #fpslider-wrapper #fpslider .slick-next {
+        display:none !important;
+    }
+
+    #fpslider-wrapper #fpslider {
+        width:100%;
+    }
+
+    #fp-disclaimer p {
+        width: calc(100% - 100px);
+        padding:50px 0;
+    }
+
+    #landingblock-properties-table-and-list {
+        margin-top:15px;
+    }
+
+    #landingblock-properties-table-and-list .properties-table { display:none; }
+    #landingblock-properties-table-and-list .properties-list { display:block; }
+
+
+
+
+
+    /*** Page (Generic/Elementor) ***/
+
+    body .elementor-widget-wrap>.elementor-element.elem-intro-text {
+        width:100%;
+    }
+
+    #insideblock-modern-affordable-living {
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+
+    #insideblock-modern-affordable-living .container.second .inner {
+        margin-bottom:30px;
+    }
+
+    /*** Elementor ***/
+    h3.elementor-heading-title {
+        font-size:2.3em !important;
+    }
+
+
+
+
+    /*** Footer ***/
+    #site-footer .follow-us {
+        display:block;
+    }
+
+    #site-footer .follow-us p {
+        margin-bottom:15px;
+    }  
+
+    #site-footer .follow-us .inner {
+        justify-content: flex-start;
+    }
+
+    #site-footer .follow-us .inner img {
+        margin-left:0;
+        margin-right:15px;
+    }
+
+    #site-footer .follow-us .inner a:first-child {
+        margin-left:0;
+    }
+
+    #site-footer ul.footer-contact-details li {
+        text-align:left;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+    /*** Footer ***/
+
+    #site-footer .menu-main-menu-container ul,
+    #site-footer .menu-main-menu-fr-container ul,
+    #site-footer .menu-utility-menu-container ul,
+    #site-footer .menu-utility-menu-fr-container ul {
+        list-style-type: none;
+        padding-left:0;
+    }
+
+    #site-footer .menu-main-menu-container ul,
+    #site-footer .menu-main-menu-fr-container ul {
+        margin-top:30px;
+    }
+
+    #site-footer .follow-us {
+        display:block;
+        margin-top:30px;
+    }
+
+    #site-footer .follow-us .inner {
+        justify-content: flex-start;
+    }
+
+    #site-footer .follow-us .inner img {
+        display:block;
+        width:35px;
+        height:auto;
+        margin-right:15px;
+    }
+
+    #site-footer .follow-us p {
+        margin-bottom:0;
+    }
+    #landingblock-virtualtour #virtualtour-container{
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+}
