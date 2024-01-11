@@ -1324,9 +1324,9 @@
                 if (slideControlIndex !== -1) {
                    var ariaButtonControl = 'slick-slide-control' + _.instanceUid + slideControlIndex
                    if ($('#' + ariaButtonControl).length) {
-                     $(this).attr({
+                     /* $(this).attr({
                          'aria-describedby': ariaButtonControl
-                     });
+                     }); */
                    }
                 }
             });

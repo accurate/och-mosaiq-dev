@@ -30,7 +30,7 @@ if (!in_array($page_id , array(161, 421))) {
         
         <div id="homeslider-overlay">
             <div class="tagline-wrapper">
-                <div class="padder">
+                <div class="padder" role="contentinfo" aria-label="Primary">
                     <?php
                     while ( have_posts() ):
                         the_post();
@@ -63,7 +63,7 @@ if (!in_array($page_id , array(161, 421))) {
                         if ($bannertext_subtitle) {
                         ?>
                             <div class="rentalnote-and-sliderbuttons">
-                                <p class="renting"><?php echo $bannertext_group['subtitle']; ?></p>
+                                <p class="renting" role="heading" aria-level="1"><?php echo $bannertext_group['subtitle']; ?></p>
                             </div>
                         <?php
                         }

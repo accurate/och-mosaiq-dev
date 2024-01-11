@@ -21,7 +21,7 @@ wp_enqueue_style( 'slick-theme-css', get_template_directory_uri() . '/slick/slic
         <div id="homeblock-topbanner" class="not-home section-wrapper">
         <div id="homeslider-overlay">
             <div class="tagline-wrapper">
-                <div class="padder">
+                <div class="padder" role="contentinfo" aria-label="Content">
                     <?php
                     while ( have_posts() ):
                         the_post();
@@ -33,7 +33,7 @@ wp_enqueue_style( 'slick-theme-css', get_template_directory_uri() . '/slick/slic
                         ?>
 
                         <div class="rentalnote-and-sliderbuttons">
-                            <p class="renting"><?php echo $bannertext_group['subtitle']; ?></p>
+                            <p class="renting" role="heading" aria-level="1"><?php echo $bannertext_group['subtitle']; ?></p>
                             <div id="homeslider-pagination"></div>
                         </div>
                     <?php

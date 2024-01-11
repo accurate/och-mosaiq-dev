@@ -25,15 +25,15 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row-social">
 
       <?php if (ICL_LANGUAGE_CODE == 'en'): ?>    
-        <a class="social-icon" href="https://www.instagram.com/mosaiq811/" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-instagram-white.svg" alt="Visit us on Instagram" /></a>
-        <a class="social-icon" href="https://twitter.com/Mosaiq811" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-twitter-white.svg" alt="Visit us on Instagram" /></a>
-        <a class="social-icon" href="https://www.facebook.com/mosaiq811" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-facebook-white.svg" alt="Visit us on Instagram" /></a>
+        <a class="social-icon" href="https://www.instagram.com/mosaiq811/" target="_blank" aria-label="link text - new window"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-instagram-white.svg" alt="Visit us on Instagram" /></a>
+        <a class="social-icon" href="https://twitter.com/Mosaiq811" target="_blank" aria-label="link text - new window"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-twitter-white.svg" alt="Visit us on Instagram" /></a>
+        <a class="social-icon" href="https://www.facebook.com/mosaiq811" target="_blank" aria-label="link text - new window"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-facebook-white.svg" alt="Visit us on Instagram" /></a>
       <?php endif; ?>
 
       <?php if (ICL_LANGUAGE_CODE == 'fr'): ?>    
-        <a class="social-icon" href="https://www.instagram.com/mosaiq811/" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-instagram-white.svg" alt="Visit us on Instagram" /></a>
-        <a class="social-icon" href="https://twitter.com/Mosaiq811" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-twitter-white.svg" alt="Visit us on Instagram" /></a>
-        <a class="social-icon" href="https://www.facebook.com/mosaiq811" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-facebook-white.svg" alt="Visit us on Instagram" /></a>
+        <a class="social-icon" href="https://www.instagram.com/mosaiq811/" target="_blank" aria-label="link text - new window"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-instagram-white.svg" alt="Visit us on Instagram" /></a>
+        <a class="social-icon" href="https://twitter.com/Mosaiq811" target="_blank" aria-label="link text - new window"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-twitter-white.svg" alt="Visit us on Instagram" /></a>
+        <a class="social-icon" href="https://www.facebook.com/mosaiq811" target="_blank" aria-label="link text - new window"><img src="<?php echo bloginfo('template_url'); ?>/images/logo-facebook-white.svg" alt="Visit us on Instagram" /></a>
       <?php endif; ?>
     
     </div>

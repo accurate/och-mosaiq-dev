@@ -76,7 +76,8 @@ $container = get_theme_mod( 'understrap_container_type' );
         wp_nav_menu(
             array(
                 'menu' => 'main-menu',
-                'theme_location' => 'primary'
+                'theme_location' => 'primary',
+				'items_wrap' => '<ul id="%1$s" class="%2$s" role="menu" >%3$s</ul>'
             )
         )
         ?>
@@ -117,22 +118,25 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div id="mobile-menu-rightside-wrapper">
 
             <?php do_action('wpml_add_language_selector'); ?>
-    
-            <?php
-            if (ICL_LANGUAGE_CODE == 'en') :
-            ?>
-                <a class="register-btn"><?php _e('Join&nbsp;email&nbsp;list'); ?></a>
-            <?php
-            endif;
-            ?>
+			
+			<a href="
+        <?php    
+            if (ICL_LANGUAGE_CODE == 'en'){
+                echo "https://eepurl.com/hjqDor";
+            } else if (ICL_LANGUAGE_CODE == 'fr'){
+                echo "https://eepurl.com/hrtu31";
+            }
 
-            <?php
-            if (ICL_LANGUAGE_CODE == 'fr') :
-            ?>
-                <a class="register-btn"><?php _e('JOINDRE&nbsp;LA&nbsp;LISTE DE&nbsp;COURRIEL'); ?></a>
-            <?php
-            endif;
-            ?>
+            if (ICL_LANGUAGE_CODE == 'en'){
+                $email_btn_desktop_text = 'Join&nbsp;email&nbsp;list';
+            } else if (ICL_LANGUAGE_CODE == 'fr'){
+                $email_btn_desktop_text = 'JOINDRE&nbsp;LA&nbsp;LISTE DE&nbsp;COURRIEL';
+            }
+        ?>
+        " data-lity class="register-btn" ><?php echo $email_btn_desktop_text; ?></a>
+    
+         
+       
 
             <span class="menu-accessible-text"><?php _e('Menu', 'mosaiq'); ?></span>
             <a href="#" id="mobile-nav-toggle"><img src="<?php bloginfo('template_url'); ?>/images/28x17-icon-mobile-menu-toggle.png" alt="<?php echo __('Mobile Navigation', 'mosaiq'); ?>" /></a>
@@ -152,6 +156,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 array(
                     'menu' => 'main-menu',
                     'theme_location' => 'primary',
+					'items_wrap' => '<ul id="%1$s" class="%2$s" role="menu" >%3$s</ul>',
                     'container' => false
                 )
             );

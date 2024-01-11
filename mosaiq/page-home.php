@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <div class="tagline-wrapper">
 
-                <div class="padder">
+                <div class="padder" role="main" aria-label="Introduction">
 
                     <?php
                     while ( have_posts() ):
@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         } ?>
 
                         <div class="rentalnote-and-sliderbuttons">
-                            <p class="renting"><?php echo $home_bannertext_group['homebanner_subtitle']; ?></p>
+                            <p class="renting" role="heading" aria-level="2"><?php echo $home_bannertext_group['homebanner_subtitle']; ?></p>
                             <div id="homeslider-pagination"></div>
                         </div>
                 
@@ -56,7 +56,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 if( have_rows('slides') ):
                     while( have_rows('slides') ) : the_row();
                     ?>
-                        <img data-lazy="<?php echo get_sub_field('image'); ?>" />
+                        <img data-lazy="<?php echo get_sub_field('image'); ?>" alt="Slide" />
                     <?php
                     endwhile;
                 endif;
@@ -111,13 +111,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="inner">
-                                    <p class="color-white"><?php echo get_sub_field('block_apartments_text'); ?></p>
+                                    <p class="color-white" role="heading" aria-level="3"><?php echo get_sub_field('block_apartments_text'); ?></p>
                                     <a class="mos-btn" href="<?php echo get_sub_field('block_apartments_url'); ?>"><?php _e('Learn more','mosaiq'); ?></a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="inner">
-                                    <p class="color-white"><?php echo get_sub_field('block_townhomes_text'); ?></p>
+                                    <p class="color-white" role="heading" aria-level="3"><?php echo get_sub_field('block_townhomes_text'); ?></p>
                                     <a class="mos-btn" href="<?php echo get_sub_field('block_townhomes_url'); ?>"><?php _e('Learn more','mosaiq'); ?></a>
                                 </div>
                             </div>
@@ -254,7 +254,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                             <div class="col-lg-8 mos-col">
                                 <div class="floorplans-block inner">
-                                    <img src="<?php bloginfo('template_url'); ?>/images/home-floorplan-thumbnail.png" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/home-floorplan-thumbnail.png" alt="Floorplan" />
                                     <div class="inner-inner">
                                         <h3 class="color-grey"><?php echo get_sub_field('block_floorplans_title'); ?></h3>
                                         <p class="color-grey"><?php echo get_sub_field('block_floorplans_description'); ?></p>
@@ -304,14 +304,14 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner first">
-                            <iframe class="video-player" src="<?php echo get_field('home_introvideo_url'); ?>" frameborder="0" allowfullscreen></iframe>
+                            <iframe title="Intro Video" class="video-player" src="<?php echo get_field('home_introvideo_url'); ?>" frameborder="0" allowfullscreen></iframe>
                         </div><!-- .inner -->
                     </div><!-- .col-md-12 -->
                 </div><!-- .row -->    
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner second">
-                            <iframe class="video-player" src="<?php echo get_field('home_3dvideo_url'); ?>" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+                            <iframe title = "3D Video" class="video-player" src="<?php echo get_field('home_3dvideo_url'); ?>" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
                         </div><!-- .inner -->
                     </div><!-- .col-md-12 -->
                 </div><!-- .row -->
@@ -363,8 +363,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p><?php echo get_sub_field('description'); ?></p>
                             </div>
                             <div class="col-md-6">
-                                <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php echo get_sub_field('map_embed_url'); ?>"></iframe>
-                                <p class="map-caption"><?php echo get_sub_field('address'); ?></p>
+                                <iframe title="Address Map" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php echo get_sub_field('map_embed_url'); ?>"></iframe>
+                                <p class="map-caption" role="heading" aria-level="4"><?php echo get_sub_field('address'); ?></p>
                             </div>
                         </div>
                     </div>

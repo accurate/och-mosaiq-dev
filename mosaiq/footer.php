@@ -33,7 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         'post_type' => 'any'
     );
     
-    $query = new WP_Query( $args );
+    $query = new WP_Query( $args );	
 
     if ( $query->have_posts() ) :
         while ( $query->have_posts() ) :
@@ -48,7 +48,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 
 
 
-            <div id="site-footer" class="section-wrapper bgcolor-grey">
+            <div id="site-footer" class="section-wrapper bgcolor-grey" role="contentinfo" aria-label="Site Footer">
                 <div class="container">
                     <div class="row">
                     
@@ -69,7 +69,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                             wp_nav_menu(
                                 array(
                                     'menu' => 'main-menu',
-                                    'theme_location' => 'primary'
+                                    'theme_location' => 'primary',
+									'items_wrap' => '<ul id="%1$s" class="%2$s" role="menu" >%3$s</ul>'
                                 )
                             );
 
@@ -83,9 +84,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <p><?php echo get_sub_field('social_text'); ?></p>
 
                                 <div class="inner">
-                                    <a href="<?php echo get_sub_field('social_facebook_url'); ?>" target="_blank"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/icon-facebook.svg" alt="Facebook" /></a>
-                                    <a href="<?php echo get_sub_field('social_instagram_url'); ?>" target="_blank"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/icon-instagram.svg" alt="Instagram" /></a>
-                                    <a href="<?php echo get_sub_field('social_twitter_url'); ?>" target="_blank"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/icon-twitter.svg" alt="Twitter" /></a>
+                                    <a href="<?php echo get_sub_field('social_facebook_url'); ?>" target="_blank" aria-label="link text - new window"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/icon-facebook.svg" alt="Facebook" /></a>
+                                    <a href="<?php echo get_sub_field('social_instagram_url'); ?>" target="_blank" aria-label="link text - new window"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/icon-instagram.svg" alt="Instagram" /></a>
+                                    <a href="<?php echo get_sub_field('social_twitter_url'); ?>" target="_blank" aria-label="link text - new window"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/icon-twitter.svg" alt="Twitter" /></a>
                                 </div>
 
                             </div>
@@ -142,7 +143,7 @@ wp_reset_query();
 if ( is_user_logged_in() == false) :
 ?>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics 3 / Old  -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177825332-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -151,6 +152,19 @@ if ( is_user_logged_in() == false) :
 
   gtag('config', 'UA-177825332-1');
 </script>
+
+<!-- Google tag (gtag.js) - GA4 / New -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWLXK444H4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JWLXK444H4');
+</script>
+
+
+
 
 <?php endif; ?>
 

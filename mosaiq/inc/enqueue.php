@@ -54,7 +54,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
         wp_enqueue_script( 'jquery' );
         
         // Slick Slider JS
-        wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/slick/slick.min.js', array(), $js_version, true );
+        wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/slick/slick.js', array(), $js_version, true );
 
 
         // Featherlight (Lightbox for image galleries, etc.)

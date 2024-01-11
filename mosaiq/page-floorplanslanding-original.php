@@ -40,7 +40,7 @@ wp_enqueue_style( 'slick-theme-css', get_template_directory_uri() . '/slick/slic
                         <span class="highlight green">Green Living</span>,<br />
                         and <span class="highlight orange">Affordable</span><br />
                         Rentals Meet.</h3>
-                        <p class="renting">Renting Summer 2021</p>
+                        <p class="renting" role="heading" aria-level="4">Renting Summer 2021</p>
                     <?php endif; ?>
                     
                     <?php if (ICL_LANGUAGE_CODE == 'fr'): ?>
@@ -48,7 +48,7 @@ wp_enqueue_style( 'slick-theme-css', get_template_directory_uri() . '/slick/slic
                         qui conjugue<br />
                         <span class="highlight green">habitat écologique</span><br />
                         et <span class="highlight orange">logements locatifs</span> abordables.</h3>
-                        <p class="renting">Locations l’été 2021</p>
+                        <p class="renting" role="heading" aria-level="4">Locations l’été 2021</p>
                     <?php endif; ?>
 
                 </div><!-- .tagline-wrapper -->
